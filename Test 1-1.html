@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WEB SITE NEW TAB </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+</head>
+
+<body>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial;
+            font-size: 17px;
+        }
+
+        #myVideo {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+        }
+
+        .welcome {
+            position: fixed;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            color: #f1f1f1;
+            width: 100%;
+            padding: 20px;
+        }
+
+        #myBtn {
+            width: 200px;
+            font-size: 18px;
+            padding: 10px;
+            border: none;
+            background: #000;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        #myBtn:hover {
+            background: #ddd;
+            color: black;
+        }
+
+        #myBtnright {
+            width: 200px;
+            font-size: 18px;
+            padding: 10px;
+            border: none;
+            background: #000;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        #myBtnright:hover {
+            background: #ddd;
+            color: black;
+        }
+
+
+        .containerIntro,
+        .subcontainerIntro {
+            position: fixed;
+            vertical-align: top;
+            top: 0;
+            color: #f1f1f1;
+            width: 100%;
+
+        }
+
+        .containerIntro {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+        }
+
+        .subcontainerIntro {
+            padding: 42px;
+        }
+
+        #link {
+            width: 200px;
+            font-size: 18px;
+            padding: 10px;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        #link:hover {
+            background: #ddd;
+            color: #000000;
+        }
+
+    </style>
+    </head>
+    <img src="C:\Users\Andrew_BOBO\Desktop\MEMES\Cfe8Wo0WcAEv-1-.jpg">
+    <p>คุ้ยขยะหาเศษอาหาร</p>
+    <a href="https://www.youtube.com/watch?v=wlMVuDxhTK4">
+        <img src="C:\Users\Andrew_BOBO\Desktop\maxresdefault.jpg" height="500" width="800"> </a>
+    </div>
+    <video id="myVideo" playsinline="" autoplay="" muted="" loop=""
+        poster="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/570/f63da4d6ef68e93e799ca1d67f6d345f0aa124bd.jpg">
+        <source
+            src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/570/982491acceb6c9dde0d5e49dab1e7540c5faa1de.webm"
+            type="video/webm">
+        <source
+            src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/570/8144f2b875ebda693f4dec2f7c43a7a1a916375f.mp4"
+            type="video/mp4">
+    </video>
+    <style>
+        p.subcontainerIntro {
+            text-align: right;
+        }
+    </style>
+    <div class="containerIntro">
+        <style>
+            .link {
+                color: #ffffff;
+            }
+
+            /* CSS link color */
+            a:link {
+                text-decoration: none;
+            }
+        </style>
+        <h1> Kittikarn Kunsuk</h1>
+        <p class="subcontainerIntro">
+            <a id="link", class="link" href="https://www.facebook.com/Andrewwwwzhang/">Facebook</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a id="link", class="link" href="https://www.instagram.com/kti_deww/">Instagram</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a id="link", class="link" href="https://www.youtube.com/c/AppleMonate">Youtube</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a id="link", class="link" 
+                href="https://line.me/ti/p/YQpMexkn3t?fbclid=IwAR2eSMLYeH8l6IqpjFbkEbqXyFoCmKsdhQhe2FRUaEb3m2fO2Oxubl5jscQ">Line</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+          
+    </div>
+
+
+
+    <div class="welcome">
+        <h1>Read me</h1>
+        <p>I just want to create a stupid web that can show to others that's it </p>
+        <button id="myBtn" onclick="myFunction()">Pause</button>
+        <button id="myBtnright" onclick="location.href = 'file:///D:/GitHub/psychic-parakeet/wallpaper.html';" id="myButton" class="float-left submit-button" >Next Page</button>
+        <audio id="myaudio" autoplay="" loop="">
+        <source src="D:\Downloads\Aurelion_Sol_the_Star_Forger_Log_(getmp3.pro).mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    "location.href = 'www.yoursite.com';" id="myButton" class="float-left submit-button" >Home</button>
+
+    <script>
+        var video = document.getElementById("myVideo");
+        var btn = document.getElementById("myBtn");
+        var audio = document.getElementById("myaudio");
+
+        function myFunction() {
+            if (video.paused) {
+                video.play();
+                btn.innerHTML = "Pause";
+            } else {
+                video.pause();
+                btn.innerHTML = "Play";
+            }
+            if (video.paused) {
+                audio.pause();
+                btn.innerHTML = "Play";
+            } else {
+                audio.play();
+                btn.innerHTML = "Pause";
+            }
+        }
+    </script>
+
+
+
+
+
+</body>
+
+</html>
